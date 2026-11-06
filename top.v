@@ -1,6 +1,8 @@
 module top(
     input [15:0] sw,
     input btnC,
+  
+    
     output [15:0] led
 );
     d_latch part1(

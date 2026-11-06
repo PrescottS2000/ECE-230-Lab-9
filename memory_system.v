@@ -5,9 +5,9 @@ module memory_system(
    output [7:0] memory
 );
 
-    reg [7:0] mem_in0, mem_in1, mem_in2, mem_in3;
+    wire [7:0] mem_in0, mem_in1, mem_in2, mem_in3;
     wire store_0, store_1, store_2, store_3;
-    reg [7:0] mem_out_0, mem_out_1, mem_out_2, mem_out_3;
+    wire [7:0] mem_out_0, mem_out_1, mem_out_2, mem_out_3;
     
     
 onebitDemux Store(
